@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet'); 
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(school/school.png);
+}
+
+.jumbotron{
+    padding: 50px;
+    text-align: center;
+    background-image: url(prism/prism.png);
+    color: #fff;
+    padding-bottom: 65px;
+}
+
+.jumbotron p{
+    margin-top: -35px;
+}
+
+.judul{
+    font-size: 40px;
+    padding: 25px;
+    text-align: center;
+}
+
+nav{
+    padding: 0.5px;
+    background-color: #d2691e;
+    top: 0;
+    position: sticky;
+}
+
+header{
+    display: inline;
+}
+
+nav li{
+    display: inline;
+    margin-right: 22px;
+    list-style-type: none;
+}
+
+li a{
+    font-size: 20px;
+    font-weight: 450;
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover{
+    font-weight: bold;
+}
+
+nav ul li li{
+    background: #fff;
+    position: relative;
+    list-style: none;
+    display: list-item;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    display: none;
+    text-align: left;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul li li{
+    width: 100px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+li i{
+    color: #000;
+    padding: 4px;
+}
+
+main{
+    overflow: auto;
+    padding: 20px;
+}
+
+.img{
+    background-size: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 450px;
+}
+
+.format{
+    box-shadow: 0 4px 8px 0 rgba(0.5, 0.9, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: #d2691e;
+}
+
+.foot{
+    background-color: #d2691e;
+    padding: 10px;
+}
+
+.foot .isifoot{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#content{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 1000px){
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.herderas, h4{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
